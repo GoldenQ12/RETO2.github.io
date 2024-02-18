@@ -1,0 +1,32 @@
+:root{
+    --web-bg: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    --nav-bg: red;
+    --fg: #fafafa;
+    --a-hover: #777eff;
+    --btn:  #0f0c29;
+    --btn-hover: #2f2788;
+    --slide: #3429b1;
+    --header: #777eff;
+    --games-bg: #0f0c2995;
+}
+
+.games{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+}
+.games-info{
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    font-size: 5rem;
+    background-color: var(--btn);
+    padding: 64px;
+    border-radius: 20px;
+}
