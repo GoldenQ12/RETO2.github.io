@@ -408,7 +408,10 @@ img{
         align-items: center;
         width: 100%;
         flex-direction: column;
-        background-color: #00000048;
+        background-color: #00000048;    
+    }
+    .game-1{
+        background-position: center;
     }
     .page-1{
         flex-direction: column;
