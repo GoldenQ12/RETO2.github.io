@@ -1,0 +1,108 @@
+  
+  /*Titulo de pagina web del reto*/
+  .titulo {
+    border-style: dashed;
+    text-align: center;
+    font-size: 45px;
+    font-family: "Audiowide", sans-serif;
+  }
+  
+  /* Video de oferta */
+  video {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    width: 50%;
+    background-color: rgb(01, 104, 17);
+    border-radius: 3rem;
+  }
+  
+  /*Las cajas de las licencias*/
+  .licencias {
+    width: 15%;
+    margin: 5%;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    transition: all .3s ease;
+
+  }
+  
+  /*Configuracion de las imagenes*/
+  .licencias img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  div.licencias:hover {
+    border: 2px solid #016811;
+  }
+  
+  /*Decripcion de las las licencias*/
+  .desc { 
+    padding: 15px ;
+    text-align: center;
+    font-size: 25px auto ;
+  }
+  
+  /*La fuente del los precios*/
+  span {
+    font-size: 30px auto;
+    font-family: cursive,sans-serif;
+  }
+  
+  /* ! FOOTER START */
+  footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .copy {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #00000070;
+    color: white;
+    width: 100%;
+  }
+  
+  .titulos {
+    border-style: dotted;
+    text-align: center;
+    font-family: "Trirong", serif;
+    border-radius: 600px;
+    margin-bottom: 10px;
+  }
+  section{
+    display: flex; 
+    justify-content: space-between;
+    
+    margin: 0%;
+   
+ 
+  }
+  @media screen and (max-width: 1000px) {
+    section{
+      flex-wrap: wrap;
+    }
+    .desc { 
+      padding: 5% ;
+      text-align: center;
+      font-size: 25px auto ;
+    }
+    span {
+      font-size: 30px auto;
+      font-family: cursive,sans-serif;
+    }
+
+    }
+
+  .cajagrande{
+    display: flex;
+
+  }
+  
